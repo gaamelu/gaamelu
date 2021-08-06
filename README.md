@@ -1,4 +1,5 @@
 ### Hi there 👋
+📫 How to reach me: [E-mail] gabriellucena360@outlook.com | [Discord] Gabriel Lucena#2457
 
 <!--
 **Drazyn/Drazyn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
