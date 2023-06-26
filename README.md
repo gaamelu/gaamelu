@@ -6,7 +6,7 @@ Sou apaixonado por descobrir novas formas de ver o mesmo problema 👨‍💻
  <br/> :purple_heart: &nbsp; Descobrindo 
  <br/> :computer: &nbsp; Eu trabalho e desenvolvo tecnologias com Lua (amo uma linguagem brasileira), C++, Python, Javascript (React, React Native, Node.js), CSS, HTML e MySQL  
  <br/> 💬  &nbsp; Sobre mim: Curto tecnologias e desenvolver jogos, mas não sou um fã de jogar 😅
- <br/> :email: &nbsp; Entre em contato comigo: gabriellucena360@outlook.com OU Gabriel Lucena#2457 [Discord User]
+ <br/> :email: &nbsp; Entre em contato comigo: gabriellucena.dev@gmail.com OU Gabriel Lucena#2457 [Discord User]
 
 <!--
 **Drazyn/Drazyn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
