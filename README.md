@@ -1,24 +1,9 @@
-# Gabriel Lucena
+# Gabriel Melo Lucena
 
-## Olá pessoal 👋
-Sou apaixonado por descobrir novas formas de ver o mesmo problema 👨‍💻
+## Bem vindo, ao meu perfil! 👋
+Eu sou um estudante de **Mat. Aplicada e Computacional** na Universidade Estadual de Campinas (**UNICAMP**) com objetivo de entrar no mercado de trabalho como **Cientista de Dados**. 
 
  <br/> :purple_heart: &nbsp; Descobrindo 
- <br/> :computer: &nbsp; Eu trabalho e desenvolvo tecnologias com Lua (amo uma linguagem brasileira), C++, Python, Javascript (React, React Native, Node.js), CSS, HTML e MySQL  
- <br/> 💬  &nbsp; Sobre mim: Curto tecnologias e desenvolver jogos, mas não sou um fã de jogar 😅
- <br/> :email: &nbsp; Entre em contato comigo: gabriellucena.dev@gmail.com OU **gablu03** [Discord User]
-
-<!--
-**Drazyn/Drazyn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+ <br/> :computer: &nbsp; No momento, eu trabalho como **Desenvolvedor de Software** freelancer de projetos de jogos da comunidade opentibia. Frequentemente trabalho com as linguagens **Lua** (amo uma linguagem brasileira), **C++**, **Python** e **MySQL**.  
+ 💬  &nbsp; Sobre mim: Me considero um entusiasta da tecnologia, constantemente me encontro explorando ferramentas, bibliotecas e linguagens novas (você provavelmente encontrará alguns projetos por aqui, enquanto outros se perdem no desktop).
+ <br/>  <br/> :email: &nbsp; Entre em contato comigo: gabriellucena.dev@gmail.com OU **gablu03** [Discord User]
