@@ -26,7 +26,6 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre mim</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projetos</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#articles">Artigos / Posts</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experiência</a></li>
@@ -34,8 +33,7 @@
             </div>
         </nav>
         <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
+        <main class="container-fluid p-0">
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
@@ -48,55 +46,47 @@
                     </div>
                     <p class="lead mb-5">Eu sou um estudante de <strong>Mat. Aplicada e Computacional</strong> na Universidade Estadual de Campinas (<strong>UNICAMP</strong>) com objetivo de
                     entrar no mercado de trabalho atuando como <strong>Cientista de Dados</strong> júnior ou estagiário.</p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/gabrielmelolucena/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <div class="social-icons mb-5">
+                        <a class="social-icon" href="https://www.linkedin.com/in/gabrielmelolucena/" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/gaamelu" target="_blank"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="https://twitter.com/gaamelu" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <!-- <a class="social-icon" href="https://twitter.com/gaamelu" target="_blank"><i class="fab fa-twitter"></i></a> -->
                     </div>
-                </div>
-            </section>
-            <!-- Education-->
-            <!-- <hr class="m-0" />
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Educação</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Universidade Estadual de Campinas</h3>
-                            <div class="subheading mb-3">Graduação em Matemática aplicada e computacional</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Março de 2022 - Dezembro de 2026</span></div>
+                    <div>
+                        <h3 class="subheading">Linguagens de programação</h3>
+                        <ul class="fa-ul mb-4">
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Python
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                SQL
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                HTML / CSS / JavaScript
+                            </li>
+                        </ul>
+                        <h3 class="subheading">Ferramentas</h3>
+                        <ul class="fa-ul mb-4">
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Git
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Excel básico
+                            </li>
+                        </ul>
+                        <h3 class="subheading">Habilidades</h3>
+                        <ul class="fa-ul mb-4">
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Webscrapping
+                            </li>
+                        </ul>
                     </div>
-                </div>
-            </section>-->
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Habilidades</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
-                        <!-- <li class="list-inline-item"><i class="fab fa-sql"></i></li> -->
-                    </ul>
-                    <div class="subheading mb-3">Linguagens de programação</div>
-                    <ul class="fa-ul mb-4">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Python
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            SQL
-                        </li>
-                    </ul>
-                    <div class="subheading mb-3">Ferramentas</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Git
-                        </li>
-                    </ul>
                 </div>
             </section>
             <hr class="m-0" />
@@ -106,23 +96,75 @@
                     <div class="container-fluid">
                         <div class="row card-container">
                             <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Webscraper to Ebook</h5>
+                                    <p class="card-text">Uma ferramenta que coleta capítulos de livros postados em blogs ou revistas e compacta em formato mobi, para leitura em Kindles.</p>
+                                    <div class="tags mb-3">
+                                        <span class="badge bg-primary">webscrapping</span>
+                                        <span class="badge bg-primary">Python</span>
+                                        <span class="badge bg-primary">HTML</span>
+                                        <span class="badge bg-secondary">beaultifulsoup4</span>
+                                    </div>
+                                    <a href="https://github.com/gaamelu/webscraper-to-ebook/" class="btn btn-outline-info" target="_blank">Acessar</a>
+                                    <p class="card-text"><small class="text-body-secondary">Novembro de 2022</small></p>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Finance Analysis Notebook</h5>
+                                    <p class="card-text">
+                                        Um jupyter notebook que lê sua planilha de dados financeiras (como NuBank)
+                                        e gera gráficos que fornece insights importantes para sua saúde financeira. Pode ser acessado localmente ou integrado ao Google Drive pelo Google Colab.
+                                    </p>
+                                    <div class="tags mb-3">
+                                        <span class="badge bg-primary">Python</span>
+                                        <span class="badge bg-secondary">Pandas</span>
+                                        <span class="badge bg-secondary">Numpy</span>
+                                    </div>
+                                    <a href="https://github.com/gaamelu/finance-analysis-notebook" target="_blank" class="btn btn-outline-info">Acessar</a>
+                                    <p class="card-text"><small class="text-body-secondary">Novembro de 2022</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Previsão de diagnóstico de diabetes</h5>
+                                    <p class="card-text">
+                                        Um modelo de <strong>regressão logística</strong> que prevê se um paciente tem ou não diabetes, baseado em dados de exames da database Pima Indians Diabetes Database. 
+                                        A metodologia aplicada foi CRISP-DM.
+                                    </p>
+                                    <div class="tags mb-3">
+                                        <span class="badge bg-primary">Machine Learning</span>
+                                        <span class="badge bg-primary">CRISP-DM</span>
+                                        <span class="badge bg-primary">Python</span>
+                                        <span class="badge bg-secondary">scikit-learn</span>
+                                        <span class="badge bg-secondary">Pandas</span>
+                                        <span class="badge bg-secondary">Numpy</span>
+                                    </div>
+                                    <a href="https://github.com/gaamelu/kaggle-pima-indians-diabetes-database-logistic-regression/" target="_blank" class="btn btn-outline-info">Acessar</a>
+                                    <p class="card-text"><small class="text-body-secondary">Maio de 2023</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- <div class="card mb-3">
                                 <div class="row">
-                                    <img class="img-fluid rounded col-md-4" src="https://github.com/gaamelu.png"
-                                        alt="Project 1 image">
+                                    <img class="img-fluid rounded col-md-4" src="https://github.com/gaamelu.png" alt="Project 1 image">
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Project 1</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                                                euismod, nunc vel
-                                                bibendum bibendum, velit sapien tincidunt nunc, vel tincidunt sapien sapien vel
-                                                sapien.</p>
+                                            <h5 class="card-title">Finance Analysis Notebook</h5>
+                                            <p class="card-text">
+                                                Um jupyter notebook que lê sua planilha de dados financeiras (como NuBank)
+                                                e gera gráficos que fornece insights importantes para sua saúde financeira. Pode ser acessado
+                                                localmente ou integrado ao Google Drive pelo Google Colab.
+                                            </p>
                                             <div class="tags mb-3">
-                                                <span class="badge bg-primary">SQL</span>
-                                                <span class="badge bg-primary">Excel</span>
+                                                <span class="badge bg-primary">Python</span>
                                                 <span class="badge bg-primary">Pandas</span>
+                                                <span class="badge bg-primary">Numpy</span>
                                             </div>
-                                            <a href="#" class="btn btn-outline-info">Acessar</a>
-                                            <p class="card-text"><small class="text-body-secondary">Project from may 2023</small>
+                                            <a href="https://github.com/gaamelu/finance-analysis-notebook" target="_blank"
+                                                class="btn btn-outline-info">Acessar</a>
+                                            <p class="card-text"><small class="text-body-secondary">Novembro de 2022</small>
                                             </p>
                                         </div>
                                     </div>
@@ -130,216 +172,29 @@
                             </div>
                             <div class="card mb-3">
                                 <div class="row">
-                                    <img class="img-fluid rounded col-md-4" src="https://github.com/gaamelu.png"
-                                        alt="Project 1 image">
+                                    <img class="img-fluid rounded col-md-4" src="https://github.com/gaamelu.png" alt="Project 1 image">
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Project 2</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                                                euismod, nunc vel
-                                                bibendum bibendum, velit sapien tincidunt nunc, vel tincidunt sapien sapien vel
-                                                sapien.</p>
+                                            <h5 class="card-title">Finance Analysis Notebook</h5>
+                                            <p class="card-text">
+                                                Um jupyter notebook que lê sua planilha de dados financeiras (como NuBank)
+                                                e gera gráficos que fornece insights importantes para sua saúde financeira. Pode ser acessado localmente ou integrado ao Google Drive pelo Google Colab.
+                                            </p>
                                             <div class="tags mb-3">
-                                                <span class="badge bg-primary">SQL</span>
-                                                <span class="badge bg-primary">Excel</span>
+                                                <span class="badge bg-primary">Python</span>
                                                 <span class="badge bg-primary">Pandas</span>
+                                                <span class="badge bg-primary">Numpy</span>
                                             </div>
-                                            <a href="#" class="btn btn-outline-info">Acessar</a>
-                                            <p class="card-text"><small class="text-body-secondary">Project from may 2023</small>
+                                            <a href="https://github.com/gaamelu/finance-analysis-notebook" target="_blank" class="btn btn-outline-info">Acessar</a>
+                                            <p class="card-text"><small class="text-body-secondary">Novembro de 2022</small>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card mb-3">
-                                <div class="row">
-                                    <img class="img-fluid rounded col-md-4" src="https://github.com/gaamelu.png"
-                                        alt="Project 1 image">
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Project 3</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                                                euismod, nunc vel
-                                                bibendum bibendum, velit sapien tincidunt nunc, vel tincidunt sapien sapien vel
-                                                sapien.</p>
-                                            <div class="tags mb-3">
-                                                <span class="badge bg-primary">SQL</span>
-                                                <span class="badge bg-primary">Excel</span>
-                                                <span class="badge bg-primary">Pandas</span>
-                                            </div>
-                                            <a href="#" class="btn btn-outline-info">Acessar</a>
-                                            <p class="card-text"><small class="text-body-secondary">Project from may 2023</small>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card mb-3">
-                                <div class="row">
-                                    <img class="img-fluid rounded col-md-4" src="https://github.com/gaamelu.png"
-                                        alt="Project 1 image">
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Project 4</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                                                euismod, nunc vel
-                                                bibendum bibendum, velit sapien tincidunt nunc, vel tincidunt sapien sapien vel
-                                                sapien.</p>
-                                            <div class="tags mb-3">
-                                                <span class="badge bg-primary">SQL</span>
-                                                <span class="badge bg-primary">Excel</span>
-                                                <span class="badge bg-primary">Pandas</span>
-                                            </div>
-                                            <a href="#" class="btn btn-outline-info">Acessar</a>
-                                            <p class="card-text"><small class="text-body-secondary">Project from may 2023</small>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card mb-3">
-                                <div class="row">
-                                    <img class="img-fluid rounded col-md-4" src="https://github.com/gaamelu.png"
-                                        alt="Project 1 image">
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Project 5</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                                                euismod, nunc vel
-                                                bibendum bibendum, velit sapien tincidunt nunc, vel tincidunt sapien sapien vel
-                                                sapien.</p>
-                                            <div class="tags mb-3">
-                                                <span class="badge bg-primary">SQL</span>
-                                                <span class="badge bg-primary">Excel</span>
-                                                <span class="badge bg-primary">Pandas</span>
-                                            </div>
-                                            <a href="#" class="btn btn-outline-info">Acessar</a>
-                                            <p class="card-text"><small class="text-body-secondary">Project from may 2023</small>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card mb-3">
-                                <div class="row">
-                                    <img class="img-fluid rounded col-md-4" src="https://github.com/gaamelu.png"
-                                        alt="Project 1 image">
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Project 6</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                                                euismod, nunc vel
-                                                bibendum bibendum, velit sapien tincidunt nunc, vel tincidunt sapien sapien vel
-                                                sapien.</p>
-                                            <div class="tags mb-3">
-                                                <span class="badge bg-primary">SQL</span>
-                                                <span class="badge bg-primary">Excel</span>
-                                                <span class="badge bg-primary">Pandas</span>
-                                            </div>
-                                            <a href="#" class="btn btn-outline-info">Acessar</a>
-                                            <p class="card-text"><small class="text-body-secondary">Project from may 2023</small>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card mb-3">
-                                <div class="row">
-                                    <img class="img-fluid rounded col-md-4" src="https://github.com/gaamelu.png"
-                                        alt="Project 1 image">
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Project 7</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                                                euismod, nunc vel
-                                                bibendum bibendum, velit sapien tincidunt nunc, vel tincidunt sapien sapien vel
-                                                sapien.</p>
-                                            <div class="tags mb-3">
-                                                <span class="badge bg-primary">SQL</span>
-                                                <span class="badge bg-primary">Excel</span>
-                                                <span class="badge bg-primary">Pandas</span>
-                                            </div>
-                                            <a href="#" class="btn btn-outline-info">Acessar</a>
-                                            <p class="card-text"><small class="text-body-secondary">Project from may 2023</small>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card mb-3">
-                                <div class="row">
-                                    <img class="img-fluid rounded col-md-4" src="https://github.com/gaamelu.png"
-                                        alt="Project 1 image">
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Project 8</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                                                euismod, nunc vel
-                                                bibendum bibendum, velit sapien tincidunt nunc, vel tincidunt sapien sapien vel
-                                                sapien.</p>
-                                            <div class="tags mb-3">
-                                                <span class="badge bg-primary">SQL</span>
-                                                <span class="badge bg-primary">Excel</span>
-                                                <span class="badge bg-primary">Pandas</span>
-                                            </div>
-                                            <a href="#" class="btn btn-outline-info">Acessar</a>
-                                            <p class="card-text"><small class="text-body-secondary">Project from may 2023</small>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card mb-3">
-                                <div class="row">
-                                    <img class="img-fluid rounded col-md-4" src="https://github.com/gaamelu.png"
-                                        alt="Project 1 image">
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Project 9</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                                                euismod, nunc vel
-                                                bibendum bibendum, velit sapien tincidunt nunc, vel tincidunt sapien sapien vel
-                                                sapien.</p>
-                                            <div class="tags mb-3">
-                                                <span class="badge bg-primary">SQL</span>
-                                                <span class="badge bg-primary">Excel</span>
-                                                <span class="badge bg-primary">Pandas</span>
-                                            </div>
-                                            <a href="#" class="btn btn-outline-info">Acessar</a>
-                                            <p class="card-text"><small class="text-body-secondary">Project from may 2023</small>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card mb-3">
-                                <div class="row">
-                                    <img class="img-fluid rounded col-md-4" src="https://github.com/gaamelu.png"
-                                        alt="Project 1 image">
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Project 10</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                                                euismod, nunc vel
-                                                bibendum bibendum, velit sapien tincidunt nunc, vel tincidunt sapien sapien vel
-                                                sapien.</p>
-                                            <div class="tags mb-3">
-                                                <span class="badge bg-primary">SQL</span>
-                                                <span class="badge bg-primary">Excel</span>
-                                                <span class="badge bg-primary">Pandas</span>
-                                            </div>
-                                            <a href="#" class="btn btn-outline-info">Acessar</a>
-                                            <p class="card-text"><small class="text-body-secondary">Project from may 2023</small>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Repeat for each main project -->
+                            </div> -->
                         </div>
                         <nav aria-label="Page navigation example">
                             <ul class="pagination">
-                                <!-- Pagination links will be added dynamically by JavaScript -->
                             </ul>
                         </nav>
                     </div>
@@ -349,23 +204,31 @@
             <section class="resume-section" id="articles">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Artigos / Posts</h2>
-                    <div class="subheading mb-1">Machine Learning</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Regressão Linear na mão (linear, polinomial, etc)
-                            <a href="https://medium.com/@gabriellucena.dev/machine-learning-regress%C3%A3o-linear-na-m%C3%A3o-linear-polinomial-etc-f6adb9faaddd" target="_blank" rel="noopener noreferrer">clique para acessar</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Regressão Logística
-                            <a href="https://medium.com/@gabriellucena.dev/machine-learning-regress%C3%A3o-log%C3%ADstica-1ba670a38f3b" target="_blank" rel="noopener noreferrer">clique para acessar</a>
-                        </li>
-                    </ul>
+                    <div class="row">
+                        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-primary-emphasis">Aprendizado de máquina supervisionado</strong>
+                                <h3 class="mb-0">Regressão Linear na mão (linear, polinomial, etc)</h3>
+                                <div class="mb-1 text-body-secondary">28 maio de 2023</div>
+                                <p class="card-text mb-auto">Vamos definir um problema em que queremos encontrar a estimativa verdadeira para um determinado comportamento de um
+                                conjunto de dados... <a target="_blank" href="https://medium.com/@gabriellucena.dev/machine-learning-regress%C3%A3o-linear-na-m%C3%A3o-linear-polinomial-etc-f6adb9faaddd"
+                                    class="gap-1 stretched-link">Continue lendo</a></p>
+                            </div>
+                        </div>
+                        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-primary-emphasis">Aprendizado de máquina supervisionado</strong>
+                                <h3 class="mb-0">Machine Learning — Introdução à Regressão Logística</h3>
+                                <div class="mb-1 text-body-secondary">26 maio de 2023</div>
+                                <p class="card-text mb-auto">O objetivo desse material é levantar uma breve discussão sobre o algoritmo de regressão logística... <a target="_blank"
+                                    href="https://medium.com/@gabriellucena.dev/machine-learning-regress%C3%A3o-log%C3%ADstica-1ba670a38f3b"
+                                    class="gap-1 stretched-link">Continue lendo</a></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experiência</h2>
@@ -404,7 +267,8 @@
                                 </div> -->
                 </div>
             </section>
-        </div>
+        </main>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
